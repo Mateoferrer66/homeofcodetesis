@@ -1,0 +1,12 @@
+body {
+  background-color: #ffffff;
+}
+.navlink {
+  color: #ffffff;
+  padding-top: 10%;
+  margin: 10px;
+  margin-bottom: 0;
+}
+#navbarMax {
+  transition: all 0.8s;
+}

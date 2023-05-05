@@ -1,0 +1,15 @@
+#footer {
+    background: #484a4d;
+    color: rgba(247, 247, 247, 0.4);
+    padding: 30px 0 25px 0;
+  }
+  #footer p {
+    font-size: 13px;
+    color: aliceblue;
+  }
+  #footer a {
+    color: aliceblue;
+  }
+  #footer a:hover {
+    color: #54d0dd;
+  }

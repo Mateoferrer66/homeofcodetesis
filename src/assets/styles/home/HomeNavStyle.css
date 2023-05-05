@@ -1,0 +1,42 @@
+#menu a {
+  color: #f6f6f6;
+  text-decoration: none;
+}
+
+#menu {
+  padding: 20px;
+  transition: all 0.8s;
+}
+#menu a.navbar-brand {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#menu a.navbar-brand i.fa {
+  font-size: 18px;
+  color: #ffffff;
+  vertical-align: top;
+}
+#menu .navbar-default .navbar-nav > li > a {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+  text-align: right;
+  color: #26f900;
+}
+#menu .navbar-nav {
+  margin: 7.5px -15px;
+}
+#menu .navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  line-height: 20px;
+  cursor: pointer;
+}

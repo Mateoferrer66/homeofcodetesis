@@ -1,0 +1,135 @@
+#contact {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  /*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,7fdce6+0,54d0dd+100 */
+  /*background: rgb(0, 0, 0); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(43, 54, 65, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    to top,60px
+    rgba(27, 55, 87, 1) 0%,
+    rgba(27, 55, 87, 1) 0%,
+    rgba(27, 55, 87, 1) 0%,
+    rgba(27, 55, 87, 1) 0%,
+    rgba(27, 55, 87, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(43, 54, 65, 1) 0%,
+    rgba(43, 54, 65, 1) 0%,
+    rgba(43, 54, 65, 1) 0%,
+    rgba(43, 54, 65, 1) 0%,
+    rgba(56, 112, 168, 1) 70%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#54d0dd', GradientType=0 ); /* IE6-9 */
+}
+
+#contact .btn-default {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #414a52;
+  border: 0;
+  padding: 14px 20px;
+  margin: 0;
+  font-size: 16px;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+#contact hr {
+  align-self: center;
+  width: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  left: 50%;
+  margin-left: -35px;
+  border: 0;
+  border-top: 3px solid #383838;
+}
+
+#contact h2 {
+  color: #ffffff;
+}
+
+#contact .form-control {
+  display: flex;
+  width: 60%;
+  margin-left: 20%;
+  padding: 20px 10px;
+  padding-bottom: 30px;
+  border: 0;
+  font-size: 14px;
+  color: #1f1e1e;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+#contact .social {
+  margin-top: 80px;
+}
+#contact ul {
+  padding: 0;
+}
+#contact .social ul li {
+  display: inline-block;
+  padding: 0 25px;
+  font-size: 26px;
+  color: #343b42;
+  transition: all 0.3s;
+}
+#contact a {
+  color: #ffffff;
+}
+
+#contact a:hover, a:focus, a:active {
+  color: #1b3757;
+  transition: all 0.3s;
+}
+#contact .btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#contact a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+
+#contact .btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active {
+  color: rgba(56, 112, 168,1);
+  background-color: #414a52;
+}
+#contact .btn-default{
+  border-radius: 10px;
+}

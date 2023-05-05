@@ -1,0 +1,80 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  color: #000000;
+  width: 100%;
+  height: 100%;
+}
+/* Navigation */
+#header .intro {
+  background-image: url(/img/head.webp);
+  height: auto;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #e5e5e5;
+  background-size: cover;
+}
+
+#header h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#header .intro h1 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+#header .intro p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 22px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-left: 500;
+}
+#header .intro-text {
+  padding-top: 250px;
+  padding-bottom: 200px;
+}
+
+#header .btn-custom {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #414a52;
+  border: 0;
+  padding: 14px 20px;
+  margin: 0;
+  font-size: 16px;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+#header .btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #26f900;
+  background-color: #414a52;
+}
+#header .btn-default {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #414a52;
+  border: 0;
+  padding: 14px 20px;
+  margin: 0;
+  font-size: 16px;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: all 0.3s;
+}

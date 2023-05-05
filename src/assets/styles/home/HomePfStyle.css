@@ -1,0 +1,102 @@
+#portfolio {
+  padding: 60px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#54d0dd+0,54d0dd+0,54d0dd+0,71777d+0,414a52+100 */
+  background: rgb(43, 54, 65); /* Old browsers */
+ /* background: -moz-linear-gradient(
+    top,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(113, 119, 125, 1) 0%,
+    rgba(65, 74, 82, 1) 100%
+  ); /* FF3.6-15 
+  background: -webkit-linear-gradient(
+    top,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(113, 119, 125, 1) 0%,
+    rgba(65, 74, 82, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 
+  background: linear-gradient(
+    to bottom,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(84, 208, 221, 1) 0%,
+    rgba(113, 119, 125, 1) 0%,
+    rgba(65, 74, 82, 1) 100%
+  );*/ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', endColorstr='#414a52', GradientType=0 ); /* IE6-9 */
+}
+
+#portfolio h2 {
+  color: #ffff;
+}
+
+#portfolio hr {
+  align-self: center;
+  width: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  left: 50%;
+  margin-left: -35px;
+  border: 0;
+  border-top: 3px solid #141414;
+}
+
+#portfolio .categories {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#portfolio .row {
+  margin: 12px;
+}
+
+#portfolio .card {
+  display: inline-block;
+  margin: 10px;
+  width: 20rem;
+  padding: 0px;
+  cursor: pointer;
+  background: #4ea153;
+}
+
+#portfolio .type Button {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #999999;
+}
+
+#portfolio i.fa {
+  font-size: 20px;
+  padding: 5px;
+  color: #000000;
+}
+
+#Card.Headerr{
+background:#f39e9e;
+}
+.my-iconP-1 {
+  font-size: 70px;
+  color: rgb(211, 3, 3);
+}
+.my-iconP-2 {
+  font-size: 70px;
+  color: rgb(3, 2, 51);
+}
+.my-iconP-3 {
+  font-size: 60px;
+  color: rgb(216, 185, 8);
+}
+.my-iconP-4 {
+  font-size: 60px;
+  color: rgb(8, 63, 216);
+}
+.my-iconP-5 {
+  font-size: 70px;
+  color: rgb(235, 234, 230);
+}
+
